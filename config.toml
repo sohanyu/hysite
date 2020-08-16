@@ -1,8 +1,0 @@
-baseURL = "http://hihanyu.com/"
-languageCode = "zh-cn"
-title = "Hanyu FM"
-theme = "fm"
-
-
-[params]
-
