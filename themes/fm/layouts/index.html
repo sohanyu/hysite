@@ -4,20 +4,27 @@
   
   <body class="home blog wp-embed-responsive  nice-style-radius  nice-style-shadow" style="transform: none;">{{ partial "index_header.html" . }}
     <div class="list-magazine list-fixed ">
-      <div class="bg-effect bg-dark bg-image-color" style="background: linear-gradient(rgb(181, 182, 173) 0%, rgb(24, 53, 48) 100%, rgb(105, 71, 57) 100%);"></div>
-      <div class="bg-effect bg-poster bg-magazine" data-img="" style="background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1596657704518&di=7d9ad21e73a450cfe7421596641852aa&imgtype=0&src=http%3A%2F%2Fphoto.16pic.com%2F00%2F49%2F04%2F16pic_4904882_b.jpg);"></div>
+      <div class="bg-effect bg-dark " style="background: linear-gradient(#161e27 !important 100%);"></div>
+  
       <div class="container">
         <div class="row row-sm">
+
+          <!-- 头图 -->
+          {{ range where .Site.RegularPages ".Params.attendpos" "top_banner" }}
           <div class="col-12 col-md-6 d-flex">
             <div class="list-item list-nice-overlay block flex-fill custom-hover">
               <div class="media d-flex flex-fill">
-                <a href="http://cosy.demo.nicetheme.xyz/" class="media-content" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/07/2019070317125819.jpeg&amp;h=450&amp;w=450&amp;zc=1&amp;a=c&amp;q=100&amp;s=1&quot;);" data-bg=" url(&#39;https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/07/2019070317125819.jpeg&amp;h=450&amp;w=450&amp;zc=1&amp;a=c&amp;q=100&amp;s=1&#39;)" data-nclazyload="true" data-was-processed="true"></a>
+                <a href="http://cosy.demo.nicetheme.xyz/" class="media-content" style="background-image: url(&quot;{{ .Params.attendbg }});" data-bg=" url(.Params.attendbg)" data-nclazyload="true" data-was-processed="true"></a>
               </div>
             </div>
           </div>
+          {{ end }}
+
           <div class="col-12 col-md-6 mt-2 mt-md-0">
             <div class="list-scroll-2x">
               <div class="row row-sm row-scroll my-n1 my-md-n2">
+                 <!-- 头图右侧四小图 -->
+ {{ range where .Site.RegularPages ".Params.attendpos" "top_banner_right" }}
                 <div class="col-6 py-1 py-md-2">
                   <div class="list-item list-nice-overlay block custom-hover">
                     <div class="media">
@@ -25,6 +32,7 @@
                     </div>
                   </div>
                 </div>
+{{ end }}
                 <div class="col-6 py-1 py-md-2">
                   <div class="list-item list-nice-overlay block custom-hover">
                     <div class="media">
