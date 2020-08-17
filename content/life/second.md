@@ -1,10 +1,11 @@
 ---
-title: "我是生活3"
+title: "我是分类第二篇"
 date: 2020-08-02T22:41:02+08:00
 draft: true
 categories: ["生活"]
 tags: ["随想"]
-plocation: top_right_four
-pbackground: https://static.is26.com/uploads/2020/04/desk-21-2.jpeg
+attendpos: category_list_item
+attendbg: https://static.is26.com/uploads/2020/04/desk-21-2.jpeg
+attendicon: red
 ---
 

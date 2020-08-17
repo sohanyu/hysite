@@ -1,10 +1,11 @@
 ---
-title: "我是生活四"
+title: "我是分类第三篇"
 date: 2020-08-02T22:41:19+08:00
 draft: true
-categories: ["生活"]
+categories: ["科技"]
 tags: ["随想"]
-plocation: top_right_four
-pbackground: https://static.is26.com/uploads/2020/04/vlog40-1.jpg
+attendpos: category_list_item
+attendbg: https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062004541226.jpg
+attendicon: green
 ---
 
