@@ -161,11 +161,13 @@
                 <a href="https://cosy.demo.nicetheme.xyz/blog/category/chuchuang" target="_blank">
                   <span class="px-3">初创</span></a>
               </div>
-              <div class="list-grid list-grid-padding list-bordered list-bordered-padding my-n3 my-lg-n4">{{ range $i,$e := where .Site.RegularPages ".Params.attendpos" "img_text_item" }}
+              <div class="list-grid list-grid-padding list-bordered list-bordered-padding my-n3 my-lg-n4">
+               {{ range $i,$e := where .Site.RegularPages ".Params.attendpos" "img_text_item" }} 
                 <div class="list-item custom-hover py-3 py-lg-4">
                   <div class="media media-16x9 col-5 col-md-4 col-lg-4 mr-xl-3">
                     <a class="media-content" href="{{.Page.Permalink}}" target="_blank" title="{{ .Page.Title }}" style="background-image: url({{.Params.attendbg}});" data-bg=" url({{.Params.attendbg}})" data-nclazyload="true" data-was-processed="true">
-                      <span class="overlay"></span></a>
+                      <span class="overlay"></span>
+                    </a>
                   </div>
                   <div class="list-content py-lg-1">
                     <div class="list-body">
@@ -189,7 +191,10 @@
                       </div>
                     </div>
                   </div>
-                </div>{{ end }}</div>
+                </div>
+                {{ end }}
+            
+              </div>
             </div>
           </div>
           <div class="sidebar-home col-lg-3 d-none d-lg-block" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
@@ -282,15 +287,16 @@
         <div class="list-index-header mb-2 mb-md-3">
           <div class="h4">
             <a href="https://cosy.demo.nicetheme.xyz/blog/category/tech" target="_blank">
-              <span class="px-3">全部</span></a>
+              <span class="px-3">模块标题</span></a>
           </div>
           <div class="text-sm text-muted mt-1 mt-md-0">显示于标题右侧，可填写标题的英文翻译</div></div>
-        <div class="row row-sm list-grouped list-bordered-padding my-n2">{{ range $i,$e := where .Site.RegularPages ".Params.attendpos" "all_falls" }}
+        <div class="row row-sm list-grouped list-bordered-padding my-n2">
           <div class="col-6 col-md-3 d-flex py-2">
             <div class="list-item block overlay-hover custom-hover">
               <div class="media media-16x9">
-                <a class="media-content" href="{{.Page.Permalink}}" target="_blank" title="YouTube到底应该变成什么样？谷歌还没想清楚" style="background-image: url({{.Params.attendbg}});" data-bg=" url({{.Params.attendbg}})" data-nclazyload="true" data-was-processed="true">
-                  <div class="overlay"></div></a>
+                <a class="media-content" href="https://cosy.demo.nicetheme.xyz/blog/4575" target="_blank" title="YouTube到底应该变成什么样？谷歌还没想清楚" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005475216.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1&quot;);" data-bg=" url(https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005475216.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1)" data-nclazyload="true" data-was-processed="true">
+                  <div class="overlay"></div>
+                </a>
                 <div class="media-action">
                   <span class="btn btn-icon btn-secondary btn-lg rounded-circle">
                     <span>
@@ -301,7 +307,7 @@
               </div>
               <div class="list-content">
                 <div class="list-body ">
-                  <a href="{{.Page.Permalink}}" target="_blank" class="list-title text-md h-2x">{{ .Page.Title }}</a></div>
+                  <a href="https://cosy.demo.nicetheme.xyz/blog/4575" target="_blank" class="list-title text-md h-2x">YouTube到底应该变成什么样？谷歌还没想清楚</a></div>
                 <div class="list-footer d-flex align-items-center text-muted mt-1 mt-md-2">
                   <div class="text-xs">1年前</div>
                   <div class="flex-fill"></div>
@@ -319,7 +325,225 @@
                 </div>
               </div>
             </div>
-          </div>{{ end }}</div>
+          </div>
+          <div class="col-6 col-md-3 d-flex py-2">
+            <div class="list-item block overlay-hover custom-hover">
+              <div class="media media-16x9">
+                <a class="media-content" href="https://cosy.demo.nicetheme.xyz/blog/4573" target="_blank" title="基于英特尔OpenVINO优化，爱奇艺已将深度学习应用于视频产品" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005474612.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1&quot;);" data-bg=" url(https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005474612.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1)" data-nclazyload="true" data-was-processed="true">
+                  <div class="overlay"></div>
+                </a>
+              </div>
+              <div class="list-content">
+                <div class="list-body ">
+                  <a href="https://cosy.demo.nicetheme.xyz/blog/4573" target="_blank" class="list-title text-md h-2x">基于英特尔OpenVINO优化，爱奇艺已将深度学习应用于视频产品</a></div>
+                <div class="list-footer d-flex align-items-center text-muted mt-1 mt-md-2">
+                  <div class="text-xs">1年前</div>
+                  <div class="flex-fill"></div>
+                  <div class="text-nowrap text-xs">
+                    <span class="d-inline-block d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-view"></i>
+                      <span class="d-inline-block align-middle">808</span></span>
+                    <span class="d-none d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-Chat"></i>
+                      <span class="d-inline-block align-middle">1</span></span>
+                    <span class="d-none d-md-inline-block  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-like-line"></i>
+                      <span class="d-inline-block align-middle">10</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex py-2">
+            <div class="list-item block overlay-hover custom-hover">
+              <div class="media media-16x9">
+                <a class="media-content" href="https://cosy.demo.nicetheme.xyz/blog/4570" target="_blank" title="谷歌砸出10亿美元，要为湾区困难群众，建2万套经适房" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005552157.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1&quot;);" data-bg=" url(https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005552157.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1)" data-nclazyload="true" data-was-processed="true">
+                  <div class="overlay"></div>
+                </a>
+              </div>
+              <div class="list-content">
+                <div class="list-body ">
+                  <a href="https://cosy.demo.nicetheme.xyz/blog/4570" target="_blank" class="list-title text-md h-2x">谷歌砸出10亿美元，要为湾区困难群众，建2万套经适房</a></div>
+                <div class="list-footer d-flex align-items-center text-muted mt-1 mt-md-2">
+                  <div class="text-xs">1年前</div>
+                  <div class="flex-fill"></div>
+                  <div class="text-nowrap text-xs">
+                    <span class="d-inline-block d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-view"></i>
+                      <span class="d-inline-block align-middle">551</span></span>
+                    <span class="d-none d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-Chat"></i>
+                      <span class="d-inline-block align-middle">0</span></span>
+                    <span class="d-none d-md-inline-block  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-like-line"></i>
+                      <span class="d-inline-block align-middle">10</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex py-2">
+            <div class="list-item block overlay-hover custom-hover">
+              <div class="media media-16x9">
+                <a class="media-content" href="https://cosy.demo.nicetheme.xyz/blog/4568" target="_blank" title="Facebook的增长故事：能不能给我点个赞？" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005474119.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1&quot;);" data-bg=" url(https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005474119.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1)" data-nclazyload="true" data-was-processed="true">
+                  <div class="overlay"></div>
+                </a>
+                <div class="media-action">
+                  <span class="btn btn-icon btn-secondary btn-lg rounded-circle">
+                    <span>
+                      <i class="text-lg iconfont icon-picture1"></i>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="list-content">
+                <div class="list-body ">
+                  <a href="https://cosy.demo.nicetheme.xyz/blog/4568" target="_blank" class="list-title text-md h-2x">Facebook的增长故事：能不能给我点个赞？</a></div>
+                <div class="list-footer d-flex align-items-center text-muted mt-1 mt-md-2">
+                  <div class="text-xs">1年前</div>
+                  <div class="flex-fill"></div>
+                  <div class="text-nowrap text-xs">
+                    <span class="d-inline-block d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-view"></i>
+                      <span class="d-inline-block align-middle">648</span></span>
+                    <span class="d-none d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-Chat"></i>
+                      <span class="d-inline-block align-middle">0</span></span>
+                    <span class="d-none d-md-inline-block  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-like-line"></i>
+                      <span class="d-inline-block align-middle">6</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex py-2">
+            <div class="list-item block overlay-hover custom-hover">
+              <div class="media media-16x9">
+                <a class="media-content" href="https://cosy.demo.nicetheme.xyz/blog/4564" target="_blank" title="10年前在数字支付失败的Facebook，能靠加密货币翻身吗？" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005474915.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1&quot;);" data-bg=" url(https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005474915.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1)" data-nclazyload="true" data-was-processed="true">
+                  <div class="overlay"></div>
+                </a>
+              </div>
+              <div class="list-content">
+                <div class="list-body ">
+                  <a href="https://cosy.demo.nicetheme.xyz/blog/4564" target="_blank" class="list-title text-md h-2x">10年前在数字支付失败的Facebook，能靠加密货币翻身吗？</a></div>
+                <div class="list-footer d-flex align-items-center text-muted mt-1 mt-md-2">
+                  <div class="text-xs">1年前</div>
+                  <div class="flex-fill"></div>
+                  <div class="text-nowrap text-xs">
+                    <span class="d-inline-block d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-view"></i>
+                      <span class="d-inline-block align-middle">473</span></span>
+                    <span class="d-none d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-Chat"></i>
+                      <span class="d-inline-block align-middle">0</span></span>
+                    <span class="d-none d-md-inline-block  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-like-line"></i>
+                      <span class="d-inline-block align-middle">6</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex py-2">
+            <div class="list-item block overlay-hover custom-hover">
+              <div class="media media-16x9">
+                <a class="media-content" href="https://cosy.demo.nicetheme.xyz/blog/4562" target="_blank" title="iOS 13 Beta 2 体验：5大新功能改进，支持手机直接升级" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005474373.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1&quot;);" data-bg=" url(https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005474373.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1)" data-nclazyload="true" data-was-processed="true">
+                  <div class="overlay"></div>
+                </a>
+              </div>
+              <div class="list-content">
+                <div class="list-body ">
+                  <a href="https://cosy.demo.nicetheme.xyz/blog/4562" target="_blank" class="list-title text-md h-2x">iOS 13 Beta 2 体验：5大新功能改进，支持手机直接升级</a></div>
+                <div class="list-footer d-flex align-items-center text-muted mt-1 mt-md-2">
+                  <div class="text-xs">1年前</div>
+                  <div class="flex-fill"></div>
+                  <div class="text-nowrap text-xs">
+                    <span class="d-inline-block d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-view"></i>
+                      <span class="d-inline-block align-middle">641</span></span>
+                    <span class="d-none d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-Chat"></i>
+                      <span class="d-inline-block align-middle">1</span></span>
+                    <span class="d-none d-md-inline-block  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-like-line"></i>
+                      <span class="d-inline-block align-middle">12</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex py-2">
+            <div class="list-item block overlay-hover custom-hover">
+              <div class="media media-16x9">
+                <a class="media-content" href="https://cosy.demo.nicetheme.xyz/blog/4560" target="_blank" title="出海日报 | Paytm 全资子公司Paytm Money计划筹集高达12亿美元的资金；凯雷或投资Swiggy 2亿美元" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062006030754.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1&quot;);" data-bg=" url(https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062006030754.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1)" data-nclazyload="true" data-was-processed="true">
+                  <div class="overlay"></div>
+                </a>
+                <div class="media-action">
+                  <span class="btn btn-icon btn-secondary btn-lg rounded-circle">
+                    <span>
+                      <i class="text-lg iconfont icon-picture1"></i>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="list-content">
+                <div class="list-body ">
+                  <a href="https://cosy.demo.nicetheme.xyz/blog/4560" target="_blank" class="list-title text-md h-2x">出海日报 | Paytm 全资子公司Paytm Money计划筹集高达12亿美元的资金；凯雷或投资Swiggy 2亿美元</a></div>
+                <div class="list-footer d-flex align-items-center text-muted mt-1 mt-md-2">
+                  <div class="text-xs">1年前</div>
+                  <div class="flex-fill"></div>
+                  <div class="text-nowrap text-xs">
+                    <span class="d-inline-block d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-view"></i>
+                      <span class="d-inline-block align-middle">752</span></span>
+                    <span class="d-none d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-Chat"></i>
+                      <span class="d-inline-block align-middle">0</span></span>
+                    <span class="d-none d-md-inline-block  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-like-line"></i>
+                      <span class="d-inline-block align-middle">7</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex py-2">
+            <div class="list-item block overlay-hover custom-hover">
+              <div class="media media-16x9">
+                <a class="media-content" href="https://cosy.demo.nicetheme.xyz/blog/4558" target="_blank" title="苹果自研5G调制解调器有望2022年问世，此前将采用高通版本" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005474736.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1&quot;);" data-bg=" url(https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005474736.jpg&amp;h=200&amp;w=300&amp;zc=1&amp;a=c&amp;q=100&amp;s=1)" data-nclazyload="true" data-was-processed="true">
+                  <div class="overlay"></div>
+                </a>
+                <div class="media-action">
+                  <span class="btn btn-icon btn-secondary btn-lg rounded-circle">
+                    <span>
+                      <i class="text-lg iconfont icon-picture1"></i>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="list-content">
+                <div class="list-body ">
+                  <a href="https://cosy.demo.nicetheme.xyz/blog/4558" target="_blank" class="list-title text-md h-2x">苹果自研5G调制解调器有望2022年问世，此前将采用高通版本</a></div>
+                <div class="list-footer d-flex align-items-center text-muted mt-1 mt-md-2">
+                  <div class="text-xs">1年前</div>
+                  <div class="flex-fill"></div>
+                  <div class="text-nowrap text-xs">
+                    <span class="d-inline-block d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-view"></i>
+                      <span class="d-inline-block align-middle">650</span></span>
+                    <span class="d-none d-md-none  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-Chat"></i>
+                      <span class="d-inline-block align-middle">0</span></span>
+                    <span class="d-none d-md-inline-block  mr-1 mr-md-2">
+                      <i class="text-md iconfont icon-like-line"></i>
+                      <span class="d-inline-block align-middle">10</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="list-index-topics bg-white py-4 py-lg-5">
@@ -334,12 +558,32 @@
       <div class="list-scroll">
         <div class="container">
           <div class="list-scroll-x">
-            <div class="row row-sm my-n2">{{ $imgss := dict "技术" "https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062004410544.jpg" "创意" "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1968738595,3748910888&fm=26&gp=0.jpg" "vlog" "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1598909965006&di=7072e7f65c65aee6130b160177faf026&imgtype=0&src=http%3A%2F%2Ft9.baidu.com%2Fit%2Fu%3D2268908537%2C2815455140%26fm%3D79%26app%3D86%26f%3DJPEG%3Fw%3D1280%26h%3D719"}} {{ range $name,$num := $.Site.Taxonomies.categories }}
+            <div class="row row-sm my-n2">
               <div class="col-6 col-md-3 py-2">
                 <div class="list-item list-overlay block flex-fill overlay-hover custom-hover">
                   <div class="media">
-                    <a href="https://cosy.demo.nicetheme.xyz/blog/special/xinxiaofei" target="_blank" class="media-content" style="background-image: url(  {{ echoParam $imgss $name }});" data-bg=" url(  )" data-nclazyload="true" data-was-processed="true">
-                      <div class="overlay-1"></div></a>
+                    <a href="https://cosy.demo.nicetheme.xyz/blog/special/qingbao" target="_blank" class="media-content" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062004475795.jpg&quot;);" data-bg=" url(https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062004475795.jpg)" data-nclazyload="true" data-was-processed="true">
+                      <div class="overlay-1"></div>
+                    </a>
+                    <div class="media-overlay media-opacity">
+                      <div class="m-auto">
+                        <div class="text-64 text-font">7</div></div>
+                    </div>
+                  </div>
+                  <a href="https://cosy.demo.nicetheme.xyz/blog/special/qingbao" target="_blank" class="list-content p-2 p-md-3">
+                    <div class="list-body">
+                      <div class="m-auto text-center">
+                        <div class="h5">前沿技术情报所</div></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-md-3 py-2">
+                <div class="list-item list-overlay block flex-fill overlay-hover custom-hover">
+                  <div class="media">
+                    <a href="https://cosy.demo.nicetheme.xyz/blog/special/xinxiaofei" target="_blank" class="media-content" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062004410544.jpg&quot;);" data-bg=" url(https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062004410544.jpg)" data-nclazyload="true" data-was-processed="true">
+                      <div class="overlay-1"></div>
+                    </a>
                     <div class="media-overlay media-opacity">
                       <div class="m-auto">
                         <div class="text-64 text-font">7</div></div>
@@ -348,11 +592,50 @@
                   <a href="https://cosy.demo.nicetheme.xyz/blog/special/xinxiaofei" target="_blank" class="list-content p-2 p-md-3">
                     <div class="list-body">
                       <div class="m-auto text-center">
-                        <div class="h5">{{ .Page.Title }}</div></div>
+                        <div class="h5">城市创新新消费</div></div>
                     </div>
                   </a>
                 </div>
-              </div>{{ end }}</div>
+              </div>
+              <div class="col-6 col-md-3 py-2">
+                <div class="list-item list-overlay block flex-fill overlay-hover custom-hover">
+                  <div class="media">
+                    <a href="https://cosy.demo.nicetheme.xyz/blog/special/jujiaanquan" target="_blank" class="media-content" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062004480760.jpg&quot;);" data-bg=" url(https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062004480760.jpg)" data-nclazyload="true" data-was-processed="true">
+                      <div class="overlay-1"></div>
+                    </a>
+                    <div class="media-overlay media-opacity">
+                      <div class="m-auto">
+                        <div class="text-64 text-font">5</div></div>
+                    </div>
+                  </div>
+                  <a href="https://cosy.demo.nicetheme.xyz/blog/special/jujiaanquan" target="_blank" class="list-content p-2 p-md-3">
+                    <div class="list-body">
+                      <div class="m-auto text-center">
+                        <div class="h5">打造居家安全</div></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-md-3 py-2">
+                <div class="list-item list-overlay block flex-fill overlay-hover custom-hover">
+                  <div class="media">
+                    <a href="https://cosy.demo.nicetheme.xyz/blog/special/wanjia" target="_blank" class="media-content" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062004480294.jpg&quot;);" data-bg=" url(https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062004480294.jpg)" data-nclazyload="true" data-was-processed="true">
+                      <div class="overlay-1"></div>
+                    </a>
+                    <div class="media-overlay media-opacity">
+                      <div class="m-auto">
+                        <div class="text-64 text-font">8</div></div>
+                    </div>
+                  </div>
+                  <a href="https://cosy.demo.nicetheme.xyz/blog/special/wanjia" target="_blank" class="list-content p-2 p-md-3">
+                    <div class="list-body">
+                      <div class="m-auto text-center">
+                        <div class="h5">消费品玩家</div></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

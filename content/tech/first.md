@@ -4,7 +4,7 @@ date: 2020-08-02T22:40:49+08:00
 draft: true
 categories: ["技术"]
 tags: ["技术tag"]
-plocation: top_right_four
-pbackground: https://static.is26.com/uploads/2020/04/usa-45-1.jpg
+attendpos: rec_list_item
+attendbg: https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1336119765,2231343437&fm=26&gp=0.jpg
 ---
 
