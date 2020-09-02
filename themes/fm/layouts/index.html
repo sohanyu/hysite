@@ -7,11 +7,11 @@
       <div class="bg-effect bg-dark " style="background: linear-gradient(#161e27 !important 100%);"></div>
       <div class="container">
         <div class="row row-sm">
-          <!-- 头图 -->{{ range where .Site.RegularPages ".Params.attendpos" "top_banner" }}
+          <!-- 头图 -->{{ range where .Site.RegularPages ".Params.attendpos" "top-banner-left" }}
           <div class="col-12 col-md-6 d-flex">
             <div class="list-item list-nice-overlay block flex-fill custom-hover">
               <div class="media d-flex flex-fill">
-                <a href="{{.Permalink}}" class="media-content" style="background-image: url(&quot;{{ .Params.attendbg }});" data-bg=" url(.Params.attendbg)" data-nclazyload="true" data-was-processed="true"></a></div>
+                <a href="{{.Permalink}}" class="media-content" style="background-image: url({{ .Params.attendbg }});" data-bg=" url({{.Params.attendbg}})" data-nclazyload="true" data-was-processed="true"></a></div>
               <div class="list-content">
                 <div class="list-body">
                   <div class="d-none d-lg-block text-xs list-cat-style  ">
@@ -23,7 +23,7 @@
           <div class="col-12 col-md-6 mt-2 mt-md-0">
             <div class="list-scroll-2x">
               <div class="row row-sm row-scroll my-n1 my-md-n2">
-                <!-- 头图右侧四小图 -->{{ range where .Site.RegularPages ".Params.attendpos" "top_banner_right" }}
+                <!-- 头图右侧四小图 -->{{ range where .Site.RegularPages ".Params.attendpos" "top-banner-right" }}
                 <div class="col-6 py-1 py-md-2">
                   <div class="list-item list-nice-overlay block custom-hover">
                     <div class="media">
@@ -51,7 +51,7 @@
               <li class="item-ajax-nav d-inline-block">{{ end }}
                 <a href="{{.Page.Permalink}}" class="d-block" data-cid="-2.1">{{ .Page.Title }}</a></li>{{ $index = add $index 1}} {{ end }}</ul>
         </div>
-        <div class="row row-sm list-home list-grouped list-bordered-padding my-n2">{{ range $i,$e := where .Site.RegularPages ".Params.attendpos" "category_list_item" }}
+        <div class="row row-sm list-home list-grouped list-bordered-padding my-n2">{{ range $i,$e := where .Site.RegularPages ".Params.attendpos" "category-item" }}
           <div class="col-6 col-md-3 d-flex py-2">
             <div class="list-item custom-hover">
               <div class="media media-16x9">
@@ -107,10 +107,15 @@
         <span class="sr-only">Loading...</span></div>
         <button data-page="home" data-query="" data-action="ajax_load_posts" data-paged="2" data-append="list-home" class="dposts-ajax-load btn btn-light btn-block" style="display: block;">加载更多</button></div></nav> -->
         <!-- 广告位 -->
+        {{ range $i,$e := where .Site.RegularPages  ".Params.attendpos" "ad-item" }}
+          {{ range  where .Site.RegularPages "Params.attendnumber"  1}}
+
         <div class="block-sales mt-4 mt-md-5 d-none d-lg-block">
-          <a href="https://www.nicetheme.cn/store/cosy" target="_blank">
-            <img src="/img/index/2020033016481390.jpg" data-src="https://cosy.demo.nicetheme.xyz/wp-content/uploads/2020/03/2020033016481390.jpg" data-nclazyload="true" class="loaded" data-was-processed="true"></a>
+          <a href="{{ .Permalink }}" target="_blank">
+            <img src="{{ .Params.attendbg }}" data-src="{{ .Params.attendbg }}" data-nclazyload="true" class="loaded" data-was-processed="true" style="width:100%;height:120px"></a>
         </div>
+           {{ end }}
+        {{ end }}
         <!-- 广告位 --></div>
     </main>
     <div class="list-index-left py-3 py-md-4 py-xl-5 bg-light">
@@ -121,7 +126,7 @@
               <span class="px-3">推荐</span></a>
           </div>
           <div class="text-sm text-muted mt-1 mt-md-0">显示于标题右侧，可填写标题的英文翻译</div></div>
-        <div class="row row-sm">{{ range $i,$e := where .Site.RegularPages ".Params.attendpos" "rec_list_item" }} {{ if eq $i 0 }}
+        <div class="row row-sm">{{ range $i,$e := where .Site.RegularPages ".Params.attendpos" "rec-item" }} {{ if eq $i 0 }}
           <div class="col-12 col-md-3 d-flex mb-3 mb-md-0">
             <div class="list-item list-nice-overlay block flex-fill overlay-hover custom-hover">
               <div class="media media-3x2 d-flex flex-fill">
