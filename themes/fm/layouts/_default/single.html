@@ -8,17 +8,17 @@
       <div class="bg-effect bg-poster bg-image-cover" data-img="" style="background-image: url(&quot;&quot;);"></div>
       <div class="container">
         <div class="post-header text-center pt-4 pt-md-5">
-          <h1 class="h3 mt-4 mt-md-5">YouTube到底应该变成什么样？谷歌还没想清楚</h1>
+          <h1 class="h3 mt-4 mt-md-5">{{ .Title }}</h1>
           <div class="post-meta d-flex align-items-center justify-content-center text-sm text-muted mt-3 mt-md-3">
-            <div class="author-name author-popup">suxing</div>
-            <time class="date mx-2 mx-md-2">2019-06-20 1:06:35</time>
+            <div class="author-name author-popup">{{ .Params.author }}</div>
+            <time class="date mx-2 mx-md-2">{{ .Params.date }}</time>
             <span class="d-none d-md-inline-block mx-md-2">
               <i class="">发布在</i>
-              <a class="" href="https://cosy.demo.nicetheme.xyz/blog/category/tech" rel="category tag" target="_blank">科技</a></span>
+              <a class="" href="#" rel="category tag" target="_blank">{{ .Params.categories }}</a></span>
             <span class="d-none d-md-inline-block mx-1 mx-md-2">
               <i class="text-md iconfont icon-view"></i>1,250</span>
             <span class="d-none d-md-inline-block mx-1 mx-md-2">
-              <a href="https://cosy.demo.nicetheme.xyz/blog/4575#comments">
+              <a href="#">
                 <i class="text-md iconfont icon-Chat"></i>0</a>
             </span>
             <span class="d-none d-md-inline-block mx-1 mx-md-2">
@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="media media-21x9 rounded mt-3 mt-md-4">
-          <div class="media-content poster-zoom" style="background-image: url(&quot;https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005475216.jpg&amp;h=600&amp;w=1400&amp;zc=1&amp;a=c&amp;q=100&amp;s=1&quot;);" data-bg=" url(&#39;https://cosy.demo.nicetheme.xyz/wp-content/themes/Cosy3.2.1-1/timthumb.php?src=https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062005475216.jpg&amp;h=600&amp;w=1400&amp;zc=1&amp;a=c&amp;q=100&amp;s=1&#39;)" data-nclazyload="true" data-was-processed="true"></div>
+          <div class="media-content poster-zoom" style="background-image: url({{ .Params.attendbg }});" data-bg=" url({{ .Params.attendbg }})" data-nclazyload="true" data-was-processed="true"></div>
         </div>
       </div>
     </div>
@@ -39,48 +39,15 @@
           <div class="col-12 col-lg-10">
             <div class="post">
               <div class="post-content">
-                <div class="block-sales d-none d-lg-block mb-3 mb-md-4">
-                  <a href="https://www.nicetheme.cn/store/cosy" target="_blank">
-                    <img src="./single_files/2020033016485541.jpg" data-src="https://cosy.demo.nicetheme.xyz/wp-content/uploads/2020/03/2020033016485541.jpg" data-nclazyload="true" class="loaded" data-was-processed="true"></a>
-                </div>
-                <div class="block-sales d-lg-none mb-3 mb-md-4">
-                  <a href="https://www.nicetheme.cn/store/cosy" target="_blank">
-                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://cosy.demo.nicetheme.xyz/wp-content/uploads/2020/03/2020033016485541.jpg" data-nclazyload="true"></a>
-                </div>
+              
                 <div class="nc-light-gallery">
-                  <p>编者按：2006年11月,Google公司以16.5亿美元收购了YouTube,并把其当做一家子公司来经营。但是对于如何通过YouTube盈利,Google一直保持非常谨慎的态度。本文编译自medium原题为“Google Can’t Figure Out What YouTube Is”的文章。</p>
-                  <p>YouTube是音乐服务还是电影租赁店？是新闻聚散地，还是美容博主的大本营？它是视频文章平台，还是游戏流直播者的舞台？多年来，谷歌想用一个简单的答案来回答此问题：“包罗万象，全都是。”最近，YouTube Gaming正式关闭，它意味着之前的回答有点笼统。</p>
-                  <p>在电视类服务与社交网络之间，YouTube占据一个独特位置。寄存、分享视频是YouTube的核心功能，它可以满足各种社区的需求。有些需求甚至是矛盾的，比如购物频道想将产品变成货币，新闻频道要尽量避开利益冲突。多年来，YouTube的身份与身份存在冲突，为了调和矛盾，YouTube将一些小区块分拆，变成独立单元，目前还不知道这种策略是否凑效，也不知道能否帮助落后的单元。</p>
-                  <p>YouTube Gaming正是其中之一。2015年YouTube Gaming正式推出，它是一个独立的移动、WEB App，想以YouTube庞大的游戏社区作为根据地，发展壮大，变成与Twitch竞争的社区，Twitch已经投靠亚马逊。当时，YouTube缺少一些关键功能，只有添加这些功能，创作者才能制作游戏内容，比如浏览流视频，查阅与某个游戏有关的视频。开发独立App可以满足这一需求，同时又不会伤害YouTube其它部分的体验。</p>
-                  <p>看起来美好，不过有一个问题：大家不愿意使用YouTube Gaming。2018年9月，谷歌告诉The Verge：“关于游戏App存在一些困惑。”用户忽视它，用主YouTube App来替代。每个月有2亿用户在YouTube主程序浏览游戏内容，但只有很少的人使用独立游戏App，所以谷歌决定抛弃YouTube Gaming。现在YouTube Gaming派生的一些功能正在向YouTube转移，变成大平台的隐藏功能。</p>
-                  <p>在音乐方面，谷歌碰到相似的麻烦。2017年的一份调查显示，在全球13个主要市场，网民在流音乐上投入的时间有46%指向YouTube，比其它所有音乐流服务加起来还要多，比如Spotify、苹果音乐。谷歌在报告中指出，截止2018年9月，它已经为音乐产业贡献广告营收60亿美元，不过其它报告认为，YouTube的贡献并没有其它流服务多。2018年，意外成为音乐市场的领头羊之后，谷歌想更进一步，它推出YouTube Music。最终YouTube Music将会取代Play Music。</p>
-                  <p>至少计划就是这样安排的。谷歌声称YouTube Music将会收集旧音乐服务的所有出色功能，但在随后的一年里，计划进展缓慢。谷歌Play Music有一个重要功能：你可以将自己的播放列表上传，然后在所有设备上播放。不过到目前为止，此功能还没有转移到YouTube Music。谷歌在声明中证实，它正在规划，不过何时转移没有时间表。YouTube Music App可以播放手机本地存放的音乐，不过与谷歌已有的独立音乐服务相比差了很远。</p>
-                  <p>终有一天，谷歌也许会被迫做出决定，改变YouTube Music的前进方向，就像抛弃YouTube Gaming一样。YouTube是如何赚钱的？从哪里赚钱？谷歌没有解释过，所以外人很难判断在YouTube内部哪个单元最有价值。</p>
-                  <p>冲突的背后还存在另一个更大的问题。A社区需要这样的功能和基础设施，B社区需要那样的功能与基础设施，二者可能有很大不同。有些用户使用YouTube音乐服务，但他们不想查看流直播游戏内容，至于查看游戏内容的人，可能不需要上传音乐，不论是游戏还是音乐粉丝，可能都不想租赁电影。</p>
-                  <p>YouTube上面还有一些小众单元，比如美容博客社区。Sophie Bishop博士对此做过研究，她认为，如果能推出一些新功能，让创作者销售特定产品，或者将链接指向特定产品，对创作者会更友好，但谷歌并没有提供这样的功能。</p>
-                  <p>Bishop指出：“Instagram提供一些功能，而YouTube没有，比如可以购物的体验，Instagram的购物体验拥有合理的吸引力，而且符合不同的规则。美容界如果想赚钱，需要购买产品，或者给产品贴标签。”</p>
-                  <p>Instagram允许创作者直接通过平台销售产品，而且还支持照片浏览，配有完整的支付系统。谷歌曾经说过YouTube将会拥有相似的功能，成为谷歌购物平台的一部分。虽然这种变化的确可以帮到产品评测人员，但是谷歌的算法反其道而行。最近几年，YouTube偏爱长视频，所以长视频比短视频更成功。在算法中长视频能够夺取较佳位置，广告收入更高，能为创作者带来更多收入。如果是教育视频、视频随笔，或者是其它需要花很多时间讨论的主题，收益更高。对于其它短内容，比如教程、简洁产品导论，就没有那么友好了。</p>
-                  <p>Bishop解释说：“视频的时长就像化妆一样长。”为了达到长度要求，美容博客只能增加评测产品的数量，或者延长准备时间，无论怎样都不好。</p>
-                  <p>在新闻方面，YouTube也碰到了麻烦。新闻机构不需要销售产品，不需要搭配华丽的结算系统。相反，它们看重其它功能，比如让用户找到与文章有关的内容和信息。谷歌也在努力，想增加新功能，让YouTube用户找到更多与新闻有关的信息。不过只有当用户主动搜索相关主题时，功能才会出现。如果没有搜索，是不会显示的</p>
-                  <p>Oxford Internet Institute的Grant Blank博士认为，如果能提供更棒的搜索工具，也许可以帮助观众远离“政治回音室”（ 在一个网络空间里，如果你听到的都是对你意见的相似回答，你会认为你自己的看法代表主流，从而扭曲你对一般共识的认识），不过如果用户不知道如何查找就没有办法回避。用户会从更广阔的视角查找与主题相关的信息，查找时避开回音室。不过如果用户最开始时并不知道如何查找信息，那就没有办法回避了。Grant Blank进一步解释称：“许多人不愿意使用工具，比如搜索工具，因为这样会给人一种不知道如何使用的感觉。所以做一些基础搜索训练，告诉大家如何查找内容，这样对大多人更有用。”</p>
-                  <p>另一项谷歌产品谷歌新闻（Google News）做得更好一些，里面有一个名叫Full Coverage的功能，它会从不同的新闻源收集相关故事，这样读者就能对主题有一个更清楚的了解。大多故事都能激活此功能，在App右侧有一个按钮。Blank认为：“Full Coverage功能似乎更加关注特定新闻机构的政治倾向——如果它真的有政治倾向的话。在我看来，这样用户感觉到自己陷入政治回音室的可能性就会降低。”</p>
-                  <p>YouTube没有类似功能。在侧边栏的确可以找到相关视频，但这些视频要么与主题无关，要么视角广泛，就像Full Coverage一样。有时你根本找不到与主题有关的视频。如果观众查看一段与总统有关的Fox News视频，可能看不到其它新闻机构的报道，除非特意查找。</p>
-                  <p>这些现象都说明在YouTube内部存在无数冲突和矛盾。YouTube想成为音乐服务、成为游戏平台、成为产品评测网站、成为新闻广播机构，太多了，它不可能在每一个领域都成为第一名。即使是谷歌其它产品，有时也比YouTube的相似服务更好。YouTube Gaming App可能已经死了，但它并没有死透，仍然会以侧边栏的形式继续存在于YouTube；深入观察，不难发现YouTube的无数社区有着各种需求，这些需求是庞大社区无法满足的。</p>
-                  <p>译者：小兵手</p>
-                  <p>本文翻译自 https://onezero.medium.com/google-cant-figure-out-what-youtube-is-8246a9752aa，原文链接。如若转载请注明出处。</p>
+                  {{ .Content }}
                 </div>
               </div>
-              <div class="block-sales d-none d-lg-block">
-                <a href="https://www.nicetheme.cn/store/cosy" target="_blank">
-                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://cosy.demo.nicetheme.xyz/wp-content/uploads/2020/03/2020033016513161.jpg" data-nclazyload="true"></a>
-              </div>
-              <div class="block-sales d-lg-none">
-                <a href="https://www.nicetheme.cn/store/cosy" target="_blank">
-                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://cosy.demo.nicetheme.xyz/wp-content/uploads/2020/03/2020033016513161.jpg" data-nclazyload="true"></a>
-              </div>
+            
               <div class="post-declare mt-3 mt-md-4">
-                <p>本文系作者 @
-                  <a href="https://cosy.demo.nicetheme.xyz/blog/author/suxing" title="由suxing发布" rel="author">suxing</a>原创发布在 Cosy 主题演示1站。未经许可，禁止转载。</p></div>
+                <p>本文是作者
+                  <a href="#" title="{{ .Params.author }}" rel="author">{{ .Params.author }} </a>{{ $.Site.Data.text.contentTail }}</p></div>
               <div id="post-action" class="post-action mt-3 mt-lg-5">
                 <div class="hr-short"></div>
                 <div class="d-flex flex-fill align-items-center">
