@@ -2,7 +2,7 @@
 title: "我是分类第二篇"
 date: 2020-08-02T22:41:02+08:00
 draft: true
-categories: ["生活"]
+categories: ["创意"]
 tags: ["随想"]
 attendpos: category_list_item
 attendbg: https://static.is26.com/uploads/2020/04/desk-21-2.jpeg

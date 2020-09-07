@@ -108,7 +108,7 @@
         <button data-page="home" data-query="" data-action="ajax_load_posts" data-paged="2" data-append="list-home" class="dposts-ajax-load btn btn-light btn-block" style="display: block;">加载更多</button></div></nav> -->
         <!-- 广告位 -->
         {{ range $i,$e := where .Site.RegularPages  ".Params.attendpos" "ad-item" }}
-          {{ range  where .Site.RegularPages "Params.attendnumber"  1}}
+          {{ range  where .Site.RegularPages ".Params.attendnumber"  1}}
 
         <div class="block-sales mt-4 mt-md-5 d-none d-lg-block">
           <a href="{{ .Permalink }}" target="_blank">
