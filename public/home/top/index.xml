@@ -6,9 +6,55 @@
     <description>Recent content on Hanyu FM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Sun, 02 Aug 2020 22:40:49 +0800</lastBuildDate>
     
 	<atom:link href="http://hihanyu.com/home/top/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我是顶部右侧第一个Banner</title>
+      <link>http://hihanyu.com/home/top/top-banner-right-first/</link>
+      <pubDate>Sun, 02 Aug 2020 22:40:49 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/home/top/top-banner-right-first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>我是顶部右侧第三个Banner</title>
+      <link>http://hihanyu.com/home/top/top-banner-right-third/</link>
+      <pubDate>Sun, 02 Aug 2020 22:40:49 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/home/top/top-banner-right-third/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>我是顶部右侧第二个Banner</title>
+      <link>http://hihanyu.com/home/top/top-banner-right-second/</link>
+      <pubDate>Sun, 02 Aug 2020 22:40:49 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/home/top/top-banner-right-second/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>我是顶部右侧第四个Banner</title>
+      <link>http://hihanyu.com/home/top/top-banner-right-fourth/</link>
+      <pubDate>Sun, 02 Aug 2020 22:40:49 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/home/top/top-banner-right-fourth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>我是顶部左侧大Banner</title>
+      <link>http://hihanyu.com/home/top/top-banner-left/</link>
+      <pubDate>Sun, 02 Aug 2020 22:40:49 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/home/top/top-banner-left/</guid>
+      <description>我是一篇好文章 但是我不是一个好的标题 哈哈哈 赛发的发的死哦发斯蒂芬IDso我哦度发iOS多覅U盾思欧反搜已我偶的宿覅偶对所ID岁哦辅导书</description>
+    </item>
     
   </channel>
 </rss>

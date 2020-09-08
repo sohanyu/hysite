@@ -1,7 +1,7 @@
 ---
 title: "推荐文章里2"
 date: 2020-08-02T22:40:49+08:00
-draft: true
+draft: false
 categories: ["推荐"]
 tags: ["推荐tag"]
 attendpos: rec-item

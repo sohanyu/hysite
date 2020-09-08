@@ -115,7 +115,7 @@
       <div class="container">
         <div class="list-index-header mb-2 mb-md-3">
           <div class="h4">
-            <a href="https://cosy.demo.nicetheme.xyz/blog/category/dgdg" target="_blank">
+            <a href="#" target="_blank">
               <span class="px-3">推荐 / RECOMMEND</span></a>
           </div>
           <div class="text-sm text-muted mt-1 mt-md-0">推荐 · 精选</div></div>
@@ -156,7 +156,7 @@
           <div class="col-lg-9">
             <div class="list-plain-category mb-4 mb-lg-5">
               <div class="list-index-header h4 mb-3">
-                <a href="https://cosy.demo.nicetheme.xyz/blog/category/chuchuang" target="_blank">
+                <a href="#" target="_blank">
                   <span class="px-3">深度 / DEPTH</span></a>
               </div>
               <div class="list-grid list-grid-padding list-bordered list-bordered-padding my-n3 my-lg-n4">{{ range $i,$e := where .Site.RegularPages ".Params.attendpos" "img_text_item" }}
@@ -212,7 +212,7 @@
                       </div>
                       <div class="list-content p-0">
                         <div class="list-body">
-                          <a href="https://cosy.demo.nicetheme.xyz/blog/4847" title="在给《复联4》贡献完票房和泪水后，你终于可以去玩一玩迪士尼漫威园区了" target="_blank" class="list-title text-sm h-2x"> {{.Title}} </a></div>
+                          <a href="{{.Permalink}}" title="{{.Title}}" target="_blank" class="list-title text-sm h-2x"> {{.Title}} </a></div>
                         <div class="list-footer text-muted text-xs m-0">
                           <div>{{.Date}}</div></div>
                       </div>
@@ -222,8 +222,8 @@
                 </div>
              {{ range $i,$e := where .Site.RegularPages ".Params.attendpos" "side-item-img" }}
                 <div id="media_image-3" class="widget widget_media_image">
-                  <a href="#">
-                    <img width="600" height="450" src="{{ .Params.attendbg}}" class="image wp-image-5236 attachment-full size-full loaded" alt="" style="max-width: 100%; height: auto;" data-src="https://cosy.demo.nicetheme.xyz/wp-content/uploads/2020/03/2020033014441419.png" data-nclazyload="true" data-was-processed="true"></a>
+                  <a href="{{.Permalink}}">
+                    <img width="600" height="450" src="{{ .Params.attendbg}}" class="image wp-image-5236 attachment-full size-full loaded" alt="" style="max-width: 100%; height: auto;" data-src="{{.Params.attendbg}}" data-nclazyload="true" data-was-processed="true"></a>
                 </div>
                 {{ end }}
               </aside>
@@ -244,7 +244,7 @@
       <div class="container">
         <div class="list-index-header mb-2 mb-md-3">
           <div class="h4">
-            <a href="https://cosy.demo.nicetheme.xyz/blog/category/tech" target="_blank">
+            <a href="{{.Permalink}}" target="_blank">
               <span class="px-3">全部 / NOTES</span></a>
           </div>
           <div class="text-sm text-muted mt-1 mt-md-0">感受 · 记录 · 行走 · 思考</div></div>
@@ -289,7 +289,7 @@
       <div class="container">
         <div class="list-index-header mb-2 mb-md-3 mb-md-3">
           <div class="h4">
-            <a href="https://cosy.demo.nicetheme.xyz/topics" target="_blank">
+            <a href="{{.Permalink}}" target="_blank">
               <span class="px-3">专题 / SUBJECT</span></a>
           </div>
         </div>

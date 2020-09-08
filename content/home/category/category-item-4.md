@@ -1,7 +1,7 @@
 ---
 title: "分类条目4"
 date: 2020-08-02T22:40:49+08:00
-draft: true
+draft: false
 categories: ["创意"]
 tags: ["随想"]
 attendpos: category-item

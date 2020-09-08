@@ -6,9 +6,73 @@
     <description>Recent content in Categories on Hanyu FM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Sun, 02 Aug 2020 22:41:23 +0800</lastBuildDate>
     
 	<atom:link href="http://hihanyu.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>生活</title>
+      <link>http://hihanyu.com/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Sun, 02 Aug 2020 22:41:23 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>科技</title>
+      <link>http://hihanyu.com/categories/%E7%A7%91%E6%8A%80/</link>
+      <pubDate>Sun, 02 Aug 2020 22:41:19 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/categories/%E7%A7%91%E6%8A%80/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>创意</title>
+      <link>http://hihanyu.com/categories/%E5%88%9B%E6%84%8F/</link>
+      <pubDate>Sun, 02 Aug 2020 22:41:02 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/categories/%E5%88%9B%E6%84%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>广告</title>
+      <link>http://hihanyu.com/categories/%E5%B9%BF%E5%91%8A/</link>
+      <pubDate>Sun, 02 Aug 2020 22:40:49 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/categories/%E5%B9%BF%E5%91%8A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>推荐</title>
+      <link>http://hihanyu.com/categories/%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Sun, 02 Aug 2020 22:40:49 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/categories/%E6%8E%A8%E8%8D%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>美食</title>
+      <link>http://hihanyu.com/categories/%E7%BE%8E%E9%A3%9F/</link>
+      <pubDate>Sun, 02 Aug 2020 22:40:49 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/categories/%E7%BE%8E%E9%A3%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>旅行</title>
+      <link>http://hihanyu.com/categories/%E6%97%85%E8%A1%8C/</link>
+      <pubDate>Sun, 02 Aug 2020 22:26:33 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/categories/%E6%97%85%E8%A1%8C/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

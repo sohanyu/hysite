@@ -11,5 +11,14 @@
 	<atom:link href="http://hihanyu.com/travel/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>我是第一个banner | 我的标题要很长很长才行，因为我要测试这个标题是不是可以折行</title>
+      <link>http://hihanyu.com/travel/banner_right_first/</link>
+      <pubDate>Sun, 02 Aug 2020 22:26:33 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/travel/banner_right_first/</guid>
+      <description>sadasda</description>
+    </item>
+    
   </channel>
 </rss>

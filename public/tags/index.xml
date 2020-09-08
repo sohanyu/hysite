@@ -6,9 +6,55 @@
     <description>Recent content in Tags on Hanyu FM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Sun, 02 Aug 2020 22:41:23 +0800</lastBuildDate>
     
 	<atom:link href="http://hihanyu.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>随想</title>
+      <link>http://hihanyu.com/tags/%E9%9A%8F%E6%83%B3/</link>
+      <pubDate>Sun, 02 Aug 2020 22:41:23 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/tags/%E9%9A%8F%E6%83%B3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>广告</title>
+      <link>http://hihanyu.com/tags/%E5%B9%BF%E5%91%8A/</link>
+      <pubDate>Sun, 02 Aug 2020 22:40:49 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/tags/%E5%B9%BF%E5%91%8A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>推荐tag</title>
+      <link>http://hihanyu.com/tags/%E6%8E%A8%E8%8D%90tag/</link>
+      <pubDate>Sun, 02 Aug 2020 22:40:49 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/tags/%E6%8E%A8%E8%8D%90tag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>美食tag</title>
+      <link>http://hihanyu.com/tags/%E7%BE%8E%E9%A3%9Ftag/</link>
+      <pubDate>Sun, 02 Aug 2020 22:40:49 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/tags/%E7%BE%8E%E9%A3%9Ftag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>旅行tag</title>
+      <link>http://hihanyu.com/tags/%E6%97%85%E8%A1%8Ctag/</link>
+      <pubDate>Sun, 02 Aug 2020 22:26:33 +0800</pubDate>
+      
+      <guid>http://hihanyu.com/tags/%E6%97%85%E8%A1%8Ctag/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -3,12 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hihanyu.com/categories/</loc>
+    <lastmod>2020-08-02T22:41:23+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hihanyu.com/</loc>
     <lastmod>2020-08-02T22:41:23+08:00</lastmod>
   </url>
   
   <url>
+    <loc>http://hihanyu.com/tags/</loc>
+    <lastmod>2020-08-02T22:41:23+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hihanyu.com/vlog/</loc>
+    <lastmod>2020-08-02T22:41:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/life/fourth/</loc>
     <lastmod>2020-08-02T22:41:23+08:00</lastmod>
   </url>
   
@@ -28,6 +43,11 @@
   </url>
   
   <url>
+    <loc>http://hihanyu.com/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2020-08-02T22:41:23+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hihanyu.com/life/</loc>
     <lastmod>2020-08-02T22:41:23+08:00</lastmod>
   </url>
@@ -38,19 +58,203 @@
   </url>
   
   <url>
-    <loc>http://hihanyu.com/home/top/</loc>
+    <loc>http://hihanyu.com/tags/%E9%9A%8F%E6%83%B3/</loc>
+    <lastmod>2020-08-02T22:41:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hihanyu.com/categories/</loc>
+    <loc>http://hihanyu.com/life/third/</loc>
+    <lastmod>2020-08-02T22:41:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/categories/%E7%A7%91%E6%8A%80/</loc>
+    <lastmod>2020-08-02T22:41:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/categories/%E5%88%9B%E6%84%8F/</loc>
+    <lastmod>2020-08-02T22:41:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/life/second/</loc>
+    <lastmod>2020-08-02T22:41:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/top/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://hihanyu.com/home/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hihanyu.com/tags/</loc>
+    <loc>http://hihanyu.com/home/category/category-item-1/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/category/category-item-2/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/category/category-item-3/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/category/category-item-4/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/tags/%E5%B9%BF%E5%91%8A/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/categories/%E5%B9%BF%E5%91%8A/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/ad/ad-1/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/side/side-item-img/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/side/side-item-article-1/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/side/side-item-article-2/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/side/side-item-article-3/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/food/first%E7%9A%84%E5%89%AF%E6%9C%AC-2/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/food/first%E7%9A%84%E5%89%AF%E6%9C%AC/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/food/first/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/life/first/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/top/top-banner-right-first/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/top/top-banner-right-third/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/top/top-banner-right-second/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/top/top-banner-right-fourth/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/top/top-banner-left/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/categories/%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/tags/%E6%8E%A8%E8%8D%90tag/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/recommend/recom-item-left/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/recommend/recom-item-1/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/recommend/recom-item-2/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/recommend/recom-item-3/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/recommend/recom-item-4/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/home/recommend/recom-item-5/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/categories/%E7%BE%8E%E9%A3%9F/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/tags/%E7%BE%8E%E9%A3%9Ftag/</loc>
+    <lastmod>2020-08-02T22:40:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/travel/banner_right_first/</loc>
+    <lastmod>2020-08-02T22:26:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/categories/%E6%97%85%E8%A1%8C/</loc>
+    <lastmod>2020-08-02T22:26:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hihanyu.com/tags/%E6%97%85%E8%A1%8Ctag/</loc>
+    <lastmod>2020-08-02T22:26:33+08:00</lastmod>
   </url>
   
 </urlset>
