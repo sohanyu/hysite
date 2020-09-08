@@ -422,22 +422,28 @@ jQuery(document).ready(function ($) {
 
 		$(document).on('click', '.switch-dark-mode', function (event) {
 			event.preventDefault();
-			$.ajax({
-				url: globals.ajax_url,
-				type: 'POST',
-				dataType: 'html',
-				data: {
-					toggle_action: $('body').hasClass('nice-dark-mode') === true ? 'off' : 'on',
-					action: 'cosy19_toggle_dark_mode'
-				},
-			})
-				.done(function (response) {
-					if (!$('body').hasClass('nice-dark-mode')) {
+			// $.ajax({
+			// 	url: globals.ajax_url,
+			// 	type: 'POST',
+			// 	dataType: 'html',
+			// 	data: {
+			// 		toggle_action: $('body').hasClass('nice-dark-mode') === true ? 'off' : 'on',
+			// 		action: 'cosy19_toggle_dark_mode'
+			// 	},
+			// })
+			// 	.done(function (response) {
+			// 		if (!$('body').hasClass('nice-dark-mode')) {
+			// 			setDarkModeClass()
+			// 			return
+			// 		}
+			// 		setLightModeClass()
+			// 	})
+
+				if (!$('body').hasClass('nice-dark-mode')) {
 						setDarkModeClass()
 						return
 					}
 					setLightModeClass()
-				})
 		});
 	}
 
