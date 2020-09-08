@@ -10,7 +10,6 @@
 ================================
         Keep calm and get rich.
                     Is the best.
-
   	@Author: Dami
   	@Date:   2017-09-06 15:27:44
  * @Last Modified by: suxing
@@ -514,12 +513,12 @@ $(document).on('click', '#comments-next-button', function (event) {
 	event.preventDefault();
 	ajax_load_comments($('#comments-next-button').data());
 });
-$(document).on('click', '.search-popup', function (event) {
-	event.preventDefault();
-	$('.search-popup-form .form-control').focus();
-	var $this = $('#search-popup-wrap');
-	ncPopup('full', $this.html())
-});
+// $(document).on('click', '.search-popup', function (event) {
+// 	event.preventDefault();
+// 	$('.search-popup-form .form-control').focus();
+// 	var $this = $('#search-popup-wrap');
+// 	ncPopup('full', $this.html())
+// });
 $(document).on('click', '.author-popup', function (event) {
 	event.preventDefault();
 	var $this = $('#author-popup-wrap')
@@ -723,4 +722,5 @@ $(window).resize(function () {
 	$('.mobile-sidebar').removeClass('open');
 	$('body').removeClass('modal-open');
 });
-console.log('\n' + ' %c Cosy Designed by nicetheme® %c https://www.nicetheme.cn ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0; font-size:18px;', 'background: #fadfa3; padding:5px 0; font-size:18px;');
+
+//console.log('\n' + ' %c Cosy Designed by nicetheme® %c https://www.nicetheme.cn ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0; font-size:18px;', 'background: #fadfa3; padding:5px 0; font-size:18px;');
