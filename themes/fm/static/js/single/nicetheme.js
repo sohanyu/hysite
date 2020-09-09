@@ -658,23 +658,40 @@ $(document).on('click', '.dposts-ajax-load', function (event) {
 	}
 });
 
+// $(document).on('click', '.list-ajax-nav .item-ajax-nav', function (event) {
+// 	event.preventDefault();
+// 	var t = $(this);
+// 	if (!t.hasClass('active')) {
+// 		$('.list-ajax-nav .item-ajax-nav').removeClass('active');
+// 		t.addClass('active');
+
+// 		var cid = t.find('a').data('cid');
+// 		if (cid) {
+// 			$('.dposts-ajax-load').data('tabcid', cid);
+// 		} else {
+// 			$('.dposts-ajax-load').removeData('tabcid');
+// 		}
+// 		$('.dposts-ajax-load').data('paged', 1);
+// 		$('.list-home').html('');
+// 		$('.dposts-ajax-load').addClass('loading').text(__cosy__.load_more);
+// 		ajax_load_posts($('.dposts-ajax-load').data());
+// 	}
+// });
+
 $(document).on('click', '.list-ajax-nav .item-ajax-nav', function (event) {
 	event.preventDefault();
 	var t = $(this);
 	if (!t.hasClass('active')) {
 		$('.list-ajax-nav .item-ajax-nav').removeClass('active');
 		t.addClass('active');
+		var text = $(t).text().trim();
+		$("div[name='category_item']").attr("style","display:none !important");
+		$("div[data-show-flag='["+text+"]']").show();
 
-		var cid = t.find('a').data('cid');
-		if (cid) {
-			$('.dposts-ajax-load').data('tabcid', cid);
-		} else {
-			$('.dposts-ajax-load').removeData('tabcid');
-		}
-		$('.dposts-ajax-load').data('paged', 1);
-		$('.list-home').html('');
-		$('.dposts-ajax-load').addClass('loading').text(__cosy__.load_more);
-		ajax_load_posts($('.dposts-ajax-load').data());
+		
+		//$('.list-home').html('');
+		//$('.dposts-ajax-load').addClass('loading').text(__cosy__.load_more);
+		//ajax_load_posts($('.dposts-ajax-load').data());
 	}
 });
 

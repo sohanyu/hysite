@@ -11,11 +11,11 @@
           <div class="col-12 col-md-6 d-flex">
             <div class="list-item list-nice-overlay block flex-fill custom-hover">
               <div class="media d-flex flex-fill">
-                <a href="{{.Permalink}}" class="media-content" style="background-image: url({{ .Params.attendbg }});" data-bg=" url({{.Params.attendbg}})" data-nclazyload="true" data-was-processed="true"></a></div>
+                <a href="{{.Permalink}}" target="_blank" class="media-content" style="background-image: url({{ .Params.attendbg }});" data-bg=" url({{.Params.attendbg}})" data-nclazyload="true" data-was-processed="true"></a></div>
               <div class="list-content">
                 <div class="list-body">
                   <div class="d-none d-lg-block text-xs list-cat-style  ">
-                    <a href="{{.Permalink}}" title="{{ .Title}}" class="list-title text-md h-2x" target="_blank" style="font-size:1.0rem !important">{{ .Title}}</a></div>
+                    <a href="{{.Permalink}}" target="_blank" title="{{ .Title}}" class="list-title text-md h-2x" target="_blank" style="font-size:1.0rem !important">{{ .Title}}</a></div>
                 </div>
               </div>
             </div>
@@ -27,11 +27,11 @@
                 <div class="col-6 py-1 py-md-2">
                   <div class="list-item list-nice-overlay block custom-hover">
                     <div class="media">
-                      <a href="{{.Permalink}}" class="media-content" style="background-image: url({{ .Params.attendbg }});" data-bg="url({{ .Params.attendbg }})" data-nclazyload="true" data-was-processed="true"></a></div>
+                      <a href="{{.Permalink}}" target="_blank" class="media-content" style="background-image: url({{ .Params.attendbg }});" data-bg="url({{ .Params.attendbg }})" data-nclazyload="true" data-was-processed="true"></a></div>
                     <div class="list-content">
                       <div class="list-body">
                         <div class="d-none d-lg-block text-xs list-cat-style  ">
-                          <a href="{{.Permalink}}" title="{{ .Title}}" class="list-title text-md h-2x" target="_blank">{{ .Title}}</a></div>
+                          <a href="{{.Permalink}}" target="_blank" title="{{ .Title}}" class="list-title text-md h-2x" target="_blank">{{ .Title}}</a></div>
                       </div>
                     </div>
                   </div>
@@ -46,13 +46,29 @@
     <main class="py-3 py-md-4 py-xl-5">
       <div class="container">
         <div class="list-ajax-nav text-md-center mt-1 mt-md-0 mb-3 mb-md-4">
-          <ul class="py-xl-1">{{ $index := 1 }} {{ range $.Site.Taxonomies.categories }} {{ if eq $index 1 }}
-            <li class="item-ajax-nav d-inline-block active">{{ else }}
-              <li class="item-ajax-nav d-inline-block">{{ end }}
-                <a href="{{.Page.Permalink}}" class="d-block" data-cid="-2.1">{{ .Page.Title }}</a></li>{{ $index = add $index 1}} {{ end }}</ul>
+          <ul class="py-xl-1">
+            {{ $activeShow := ""}}
+            {{ $index := 1 }} 
+            {{ range  $.Site.Taxonomies.categories }} 
+
+            {{ if eq $index 1 }}
+            {{  $activeShow = .Page.LinkTitle }}
+            <li class="item-ajax-nav d-inline-block active">
+              {{ else }}
+              <li class="item-ajax-nav d-inline-block">
+                {{ end }}
+                <a href="{{.Page.Permalink}}" class="d-block" data-cid="-2.1">{{ .Page.Title }}</a></li>
+                {{ $index = add $index 1}} {{ end }}</ul>
         </div>
-        <div class="row row-sm list-home list-grouped list-bordered-padding my-n2">{{ range $i,$e := where .Site.RegularPages ".Params.attendpos" "category-item" }}
-          <div class="col-6 col-md-3 d-flex py-2">
+        <div class="row row-sm list-home list-grouped list-bordered-padding my-n2">
+          {{ range $i,$e := where .Site.RegularPages ".Params.attendpos" "category-item" }}
+          {{ $re :=  replace (print .Params.categories) "[" ""}}
+          {{ $re = replace (print $re) "]" ""}}
+          {{ if eq $activeShow  $re}}
+          <div class="col-6 col-md-3 d-flex py-2" name="category_item" data-show-flag="{{ .Params.categories }}">
+            {{ else }}
+            <div class="col-6 col-md-3 d-flex py-2"  name="category_item" data-show-flag="{{ .Params.categories }}" style="display:none !important">
+              {{ end }}
             <div class="list-item custom-hover">
               <div class="media media-16x9">
                 <a class="media-content" href="{{.Permalink}}" title="{{ .Title}}" target="_blank" style="background-image: url( {{ .Params.attendbg }});" data-bg=" url( {{ .Params.attendbg }} )" data-nclazyload="true" data-was-processed="true">
@@ -70,20 +86,20 @@
                   <div class="d-none d-lg-block text-xs mb-1 list-cat-style list-cat-dot-circle ">
                     <i class="cat-dot " style="border-color: {{ .Params.attendicon }}"></i>
                     <a href="{{ .Permalink }}" class="text-muted" target="_blank">{{ .Params.categories }}</a></div>
-                  <a href="{{.Permalink}}" title="{{ .Title}}" class="list-title text-md h-2x" target="_blank">{{ .Title}}</a></div>
+                  <a href="{{.Permalink}}" target="_blank" title="{{ .Title}}" class="list-title text-md h-2x" target="_blank">{{ .Title}}</a></div>
                 <div class="list-footer d-flex align-items-center text-muted mt-1 mt-lg-2">
-                  <div class="text-xs">{{ dateFormat "2020-08-08 02:02:02" .Params.date }}</div>
+                  <div class="text-xs">{{ .Params.date }}</div>
                   <div class="flex-fill"></div>
                   <div class="text-xs text-nowrap">
-                    <span class="d-inline-block d-md-none   mr-1 mr-md-2">
+                    <!-- <span class="d-inline-block d-md-none   mr-1 mr-md-2">
                       <i class="text-md iconfont icon-view"></i>
                       <span class="d-inline-block align-middle">7,105</span></span>
                     <span class="d-none d-md-none  mr-1 mr-md-2">
                       <i class="text-md iconfont icon-Chat"></i>
-                      <span class="d-inline-block align-middle">24</span></span>
+                      <span class="d-inline-block align-middle">24</span></span> -->
                     <span class="d-none d-md-inline-block ">
                       <i class="text-md iconfont icon-like-line"></i>
-                      <span class="d-inline-block align-middle">122</span></span>
+                      <!-- <span class="d-inline-block align-middle">122</span> --></span>
                   </div>
                 </div>
               </div>
@@ -201,7 +217,7 @@
 
                     <div class="list-item py-2">
                       <div class="media media-3x2 col-5 mr-3">
-                        <a href="{{.Permalink}}" target="_blank" title="{{.Title}}" class="media-content" style="background-image: url({{ .Params.attendbg  }});" data-bg="url({{ .Params.attendbg }})" data-nclazyload="true" data-was-processed="true"></a>
+                        <a href="{{.Permalink}}" target="_blank" target="_blank" title="{{.Title}}" class="media-content" style="background-image: url({{ .Params.attendbg  }});" data-bg="url({{ .Params.attendbg }})" data-nclazyload="true" data-was-processed="true"></a>
                         <div class="media-action">
                           <span class="btn btn-icon btn-secondary rounded-circle">
                             <span>
@@ -212,7 +228,7 @@
                       </div>
                       <div class="list-content p-0">
                         <div class="list-body">
-                          <a href="{{.Permalink}}" title="{{.Title}}" target="_blank" class="list-title text-sm h-2x"> {{.Title}} </a></div>
+                          <a href="{{.Permalink}}" target="_blank" title="{{.Title}}" target="_blank" class="list-title text-sm h-2x"> {{.Title}} </a></div>
                         <div class="list-footer text-muted text-xs m-0">
                           <div>{{.Date}}</div></div>
                       </div>
@@ -244,7 +260,7 @@
       <div class="container">
         <div class="list-index-header mb-2 mb-md-3">
           <div class="h4">
-            <a href="{{.Permalink}}" target="_blank">
+            <a href="{{.Permalink}}" target="_blank" target="_blank">
               <span class="px-3">全部 / NOTES</span></a>
           </div>
           <div class="text-sm text-muted mt-1 mt-md-0">感受 · 记录 · 行走 · 思考</div></div>
@@ -289,7 +305,7 @@
       <div class="container">
         <div class="list-index-header mb-2 mb-md-3 mb-md-3">
           <div class="h4">
-            <a href="{{.Permalink}}" target="_blank">
+            <a href="{{.Permalink}}" target="_blank" target="_blank">
               <span class="px-3">专题 / SUBJECT</span></a>
           </div>
         </div>
