@@ -5,7 +5,7 @@ draft: false
 categories: ["科技"]
 tags: ["随想"]
 attendpos: category_list_item
-attendbg: https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062004541226.jpg
+attendbg: http://pic1.win4000.com/wallpaper/a/58f467b96eb45.jpg
 attendicon: green
 ---
 
