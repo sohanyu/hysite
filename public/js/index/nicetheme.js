@@ -686,7 +686,8 @@ $(document).on('click', '.list-ajax-nav .item-ajax-nav', function (event) {
 		t.addClass('active');
 		var text = $(t).text().trim();
 		$("div[name='category_item']").attr("style","display:none !important");
-		$("div[data-show-flag='["+text+"]']").show();
+		//$("div[data-show-flag='["+text+"]']").show();
+		$("div[data-show-flag='"+text+"']").show();
 
 		
 		//$('.list-home').html('');

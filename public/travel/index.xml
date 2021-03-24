@@ -8,48 +8,12 @@
     <language>zh-cn</language>
     <lastBuildDate>Sun, 02 Aug 2020 22:41:23 +0800</lastBuildDate><atom:link href="http://hihanyu.com/travel/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>我是大banner</title>
+      <title>旅行篇</title>
       <link>http://hihanyu.com/travel/banner/</link>
       <pubDate>Sun, 02 Aug 2020 22:26:33 +0800</pubDate>
       
       <guid>http://hihanyu.com/travel/banner/</guid>
       <description>你好 哈哈哈哈哈 我是正文</description>
-    </item>
-    
-    <item>
-      <title>我是第一个banner | 我的标题要很长很长才行，因为我要测试这个标题是不是可以折行</title>
-      <link>http://hihanyu.com/travel/banner_right_first/</link>
-      <pubDate>Sun, 02 Aug 2020 22:26:33 +0800</pubDate>
-      
-      <guid>http://hihanyu.com/travel/banner_right_first/</guid>
-      <description>sadasda</description>
-    </item>
-    
-    <item>
-      <title>我是第三个banner</title>
-      <link>http://hihanyu.com/travel/banner_right_third/</link>
-      <pubDate>Sun, 02 Aug 2020 22:26:33 +0800</pubDate>
-      
-      <guid>http://hihanyu.com/travel/banner_right_third/</guid>
-      <description>sadasda</description>
-    </item>
-    
-    <item>
-      <title>我是第二个banner</title>
-      <link>http://hihanyu.com/travel/banner_right_second/</link>
-      <pubDate>Sun, 02 Aug 2020 22:26:33 +0800</pubDate>
-      
-      <guid>http://hihanyu.com/travel/banner_right_second/</guid>
-      <description>sadasda</description>
-    </item>
-    
-    <item>
-      <title>我是第四个banner</title>
-      <link>http://hihanyu.com/travel/banner_right_fourth/</link>
-      <pubDate>Sun, 02 Aug 2020 22:26:33 +0800</pubDate>
-      
-      <guid>http://hihanyu.com/travel/banner_right_fourth/</guid>
-      <description>sadasda</description>
     </item>
     
   </channel>
