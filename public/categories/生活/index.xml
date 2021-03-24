@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活 on Hanyu FM</title>
-    <link>http://hihanyu.com/categories/%E7%94%9F%E6%B4%BB/</link>
+    <link>http://hanyu.cool/categories/%E7%94%9F%E6%B4%BB/</link>
     <description>Recent content in 生活 on Hanyu FM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 02 Aug 2020 22:41:23 +0800</lastBuildDate><atom:link href="http://hihanyu.com/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Aug 2020 22:41:23 +0800</lastBuildDate><atom:link href="http://hanyu.cool/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我是生活二</title>
-      <link>http://hihanyu.com/life/fourth/</link>
+      <link>http://hanyu.cool/life/fourth/</link>
       <pubDate>Sun, 02 Aug 2020 22:41:23 +0800</pubDate>
       
-      <guid>http://hihanyu.com/life/fourth/</guid>
+      <guid>http://hanyu.cool/life/fourth/</guid>
       <description></description>
     </item>
     
