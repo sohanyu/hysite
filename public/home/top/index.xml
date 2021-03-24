@@ -6,11 +6,7 @@
     <description>Recent content on Hanyu FM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 02 Aug 2020 22:40:49 +0800</lastBuildDate>
-    
-	<atom:link href="http://hihanyu.com/home/top/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 02 Aug 2020 22:40:49 +0800</lastBuildDate><atom:link href="http://hihanyu.com/home/top/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我是顶部右侧第一个Banner</title>
       <link>http://hihanyu.com/home/top/top-banner-right-first/</link>
