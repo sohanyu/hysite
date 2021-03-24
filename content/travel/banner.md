@@ -1,11 +1,11 @@
 ---
-title: "我是大banner"
+title: "旅行篇"
 date: 2020-08-02T22:26:33+08:00
 draft: false
-categories: ["旅行"]
+categories: 旅行
 tags: ["旅行tag"]
-attendpos: top_banner
-attendbg: https://cosy.demo.nicetheme.xyz/wp-content/uploads/2019/06/2019062004135010-e1561004777725.jpg
+attendpos: all_falls
+attendbg: https://static.is26.com/blog/2019/06/newyork/nyc-143.JPG
 ---
 
 #### 你好
