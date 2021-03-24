@@ -1,7 +1,7 @@
 ---
 title: "我是一篇vlog"
 date: 2020-08-02T22:40:49+08:00
-draft: true
+draft: false
 categories: ["VLOG"]
 tags: ["VLOGtag"]
 attendpos: all_falls

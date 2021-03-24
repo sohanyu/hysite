@@ -1,7 +1,7 @@
 ---
 title: "我是第二个banner"
 date: 2020-08-02T22:26:33+08:00
-draft: true
+draft: false
 categories: ["旅行"]
 tags: ["旅行tag"]
 attendpos: top_banner_right
